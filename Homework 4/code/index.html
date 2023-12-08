@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 04</title>
+</head>
+<body>
+    <h2>Dado Tea Lunch Special</h2>
+    <p>Monday through Friday</p>
+    <p>11am — 3pm</p>
+    <p>$9.95 plus tax</p>
+    <p>Includes sandwich,snack and drink</p>
+    <fieldset>
+        <legend>Order Information</legend>
+        <form action="" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required/>
+            <br>
+            <input type="radio" name="name" id="name" value="name">
+            <label for="name">Here</label>
+                <br>
+                <input type="radio" name="name" value="togo" id="togo" />
+                <label for="togo">To Go</label>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Sandwiches</legend>
+        <p><b>Monday</b></p>
+        <form action="" method="post">
+            <input type="radio" name="food" value="sandwich" id="sandwich" />
+            <label for="food">Tomato Mozzarella</label>
+            <br>
+            <input type="radio" name="food" value="sandwich" id="sandwich" />
+            <label for="food">Chicken Salad</label>
+            <p><b>Tuesday</b></p>
+            <input type="radio" name="salad" value="sandwich" id="sandwich" />
+            <label for="salad">Greek Salad Wrap</label>
+            <br>
+            <input type="radio" name="salad" value="sandwich" id="sandwich" />
+            <label for="salad">Toto Wrap</label>
+            <p><b>Wednesday</b></p>
+            <input type="radio" name="meat" value="sandwich" id="sandwich" />
+            <label for="meat">Red Papper Hummus</label>
+            <br>
+            <input type="radio" name="meat" value="sandwich" id="sandwich" />
+            <label for="meat">Roasted Turkey</label>
+            <p><b>Thursday</b></p>
+            <input type="radio" name="gyro" value="sandwich" id="sandwich" />
+            <label for="gyro">Carrot-Ginger Hummus Wrap</label>
+            <br>
+            <input type="radio" name="gyro" value="sandwich" id="sandwich" />
+            <label for="gyro">Egg Salad</label>
+            <p><b>Friday</b></p>
+            <input type="radio" name="burgers" value="sandwich" id="sandwich" />
+            <label for="burgers">Dado Wrap</label>
+            <br>
+            <input type="radio" name="burgers" value="sandwich" id="sandwich" />
+            <label for="burgers">Tuna Salad</label>
+            <br>
+            <hr>
+            <input type="checkbox" name="extra" id="Gluten Free Bread" value="Gluten Free Bread">
+            <label for="Gluten Free Bread">Gluten Free Bread (75$ extra)</label>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Snack</legend>
+        <p><b>Snacks</b></p>
+        <form action="" method="post">
+            <input type="radio" name="snacks" value="fruit" id="fruit" />
+            <label for="snacks">Apple</label>
+            <br>
+            <input type="radio" name="snacks" value="fruit" id="fruit" />
+            <label for="snacks">Banana</label>
+            <br>
+            <input type="radio" name="snacks" value="fruit" id="fruit" />
+            <label for="snacks">Potato Chips</label>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Drink</legend>
+        <p><b>Drinks</b></p>
+        <form>
+            <label for="drinks"></label>
+            <select name="drinks" id="drinks">
+            <option value="" selected disabled>Please select</option>
+            <option value="Coca Cola">Coca Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Schweppes">Schweppes</option>
+            </select>
+            <br>
+            <hr>
+            <input type="checkbox" name="extra" id="large drink" value="large drink">
+            <label for="large drink">Large drink(75$ extra)</label>
+        </form>
+    </fieldset>
+    <br>
+    <form action="" method="post">
+        <input type="submit" value="Place Order"/>
+    </form>
+</html>
